@@ -1,0 +1,5 @@
+{
+  "path": ".",
+  "tag-prefix": "major-commitments-lti/",
+  "releaseCommitMessageFormat": "chore(release): groton-school/major-commitments-lti@{{currentTag}}"
+}
