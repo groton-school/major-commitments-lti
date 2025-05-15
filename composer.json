@@ -1,0 +1,77 @@
+{
+  "name": "groton-school/slim-lti-gae-skeleton",
+  "description": "A Slim Framework skeleton LTI Tool for rapid development on Google App Engine",
+  "keywords": [
+    "microframework",
+    "rest",
+    "router",
+    "psr7",
+    "google",
+    "gae",
+    "lti"
+  ],
+  "homepage": "http://github.com/groton-school/slim-lti-gae-skeleton",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Lockhart",
+      "email": "info@joshlockhart.com",
+      "homepage": "http://www.joshlockhart.com/"
+    },
+    {
+      "name": "Pierre Berube",
+      "email": "pierre@lgse.com",
+      "homepage": "http://www.lgse.com/"
+    },
+    {
+      "name": "Seth Battis",
+      "email": "sbattis@groton.org",
+      "homepage": "https://www.groton.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "project",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "groton-school/slim-gae-shim": "^1.0",
+    "groton-school/slim-lti-infrastructure-gae": "^1.0",
+    "groton-school/slim-lti-shim": "^1.0",
+    "monolog/monolog": "^2.9",
+    "odan/session": "^6.3",
+    "php-di/php-di": "^6.4",
+    "slim/php-view": "^3.4",
+    "slim/psr7": "^1.6",
+    "slim/slim": "^4.12"
+  },
+  "require-dev": {
+    "jangregor/phpstan-prophecy": "^1.0.0",
+    "phpspec/prophecy-phpunit": "^2.2",
+    "phpstan/extension-installer": "^1.3.1",
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^9.6.17",
+    "squizlabs/php_codesniffer": "^3.9"
+  },
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    },
+    "process-timeout": 0,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public",
+    "test": "phpunit"
+  }
+}

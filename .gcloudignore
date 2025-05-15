@@ -1,0 +1,10 @@
+*
+.DS_Store
+.htaccess
+!/app.yaml
+!/php.ini
+!/composer.*
+!/app
+!/public
+!/src
+!/views
