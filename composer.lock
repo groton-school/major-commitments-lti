@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5571cc02bdb40f2e69c2f72340b8621c",
+    "content-hash": "27fb6c1ddf829d034e049741ec1cd0f9",
     "packages": [
         {
             "name": "battis/lazy-secrets",
@@ -973,6 +973,52 @@
                 "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.30.2"
             },
             "time": "2025-03-26T18:01:50+00:00"
+        },
+        {
+            "name": "groton-school/lti-registration-builder",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/groton-school/lti.lti-registration-builder.git",
+                "reference": "72c7984cc3591b7113e97e25aa4bab0ea82f7d35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/groton-school/lti.lti-registration-builder/zipball/72c7984cc3591b7113e97e25aa4bab0ea82f7d35",
+                "reference": "72c7984cc3591b7113e97e25aa4bab0ea82f7d35",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "packbackbooks/lti-1p3-tool": "^6.3"
+            },
+            "require-dev": {
+                "franzl/studio": "^0.16.0",
+                "marcocesarato/php-conventional-changelog": "^1.17"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GrotonSchool\\LTI\\Registration\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Seth Battis",
+                    "email": "sbattis@groton.org"
+                }
+            ],
+            "description": "Generate an LTI 1.0 registration document",
+            "support": {
+                "issues": "https://github.com/groton-school/lti.lti-registration-builder/issues",
+                "source": "https://github.com/groton-school/lti.lti-registration-builder/tree/main"
+            },
+            "time": "2025-05-24T14:35:13+00:00"
         },
         {
             "name": "groton-school/oauth2-canvaslms",
@@ -6055,7 +6101,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "groton-school/lti-registration-builder": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

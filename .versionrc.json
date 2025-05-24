@@ -1,5 +1,5 @@
 {
   "path": ".",
-  "tag-prefix": "planner-lti/",
-  "releaseCommitMessageFormat": "chore(release): groton-school/planner-lti@{{currentTag}}"
+  "tag-prefix": "major-commitments-lti/",
+  "releaseCommitMessageFormat": "chore(release): groton-school/major-commitments-lti@{{currentTag}}"
 }

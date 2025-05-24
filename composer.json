@@ -1,16 +1,15 @@
 {
-  "name": "groton-school/planner-lti",
-  "description": "A more planner-oriented Canvas calendar view for students and teachers",
+  "name": "groton-school/major-commitments-lti",
+  "description": "Track and schedule major commitments in Canvas",
   "version": "0.0.0",
   "keywords": [
     "canvas",
     "google",
     "calendar",
-    "planner",
-    "todo",
+    "testing",
     "lti"
   ],
-  "homepage": "http://github.com/groton-school/planner-lti",
+  "homepage": "http://github.com/groton-school/major-commitments-lti",
   "license": "GPL-3.0",
   "authors": [
     {
@@ -28,6 +27,7 @@
     "battis/lazy-secrets": "^1.1",
     "google/apiclient": "^2.18",
     "google/cloud-firestore": "^1.50",
+    "groton-school/lti-registration-builder": "dev-main",
     "groton-school/oauth2-canvaslms": "^1.1",
     "groton-school/slim-gae-shim": "^1.0",
     "groton-school/slim-lti-infrastructure-gae": "^1.0",
@@ -35,6 +35,7 @@
     "guzzlehttp/guzzle": "^7.9",
     "monolog/monolog": "^2.9",
     "odan/session": "^6.3",
+    "packbackbooks/lti-1p3-tool": "^6.3",
     "php-di/php-di": "^6.4",
     "slim/php-view": "^3.4",
     "slim/psr7": "^1.6",
