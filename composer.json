@@ -1,7 +1,6 @@
 {
   "name": "groton-school/major-commitments-lti",
   "description": "Track and schedule major commitments in Canvas",
-  "version": "0.0.0",
   "keywords": [
     "canvas",
     "google",
